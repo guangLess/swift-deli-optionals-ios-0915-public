@@ -17,6 +17,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         */
         
+        
+        
+        
+        let nilArray : [String]? = ["Victoria", "Danny", "Lyel"] //[]
+        let ios:[String]? = ["Joe", "Tim", "Jim", "Tom"]
+
+        
+        stringForDeliLine(nilArray)
+        
+
+        
+        var addArray : [String]? = []
+
+        addArray = addName("guang", toDeliLine: nil)
+        print(addArray)
+        
+        
+        serveNextCustomerInDeliLine(ios)
+        
         // Do not alter
         return true  //
     }   //////////////
